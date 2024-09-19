@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="title"
+        android:textColor="@color/black"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:width="170dp"
+        android:height="280dp"
+        android:layout_marginLeft="180dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/holo_red_light"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:layout_marginTop="53sp"
+        android:text="club_code"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+       />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:text="Which Sport do you want to play in sports club" />
+
+
+    <CheckBox
+        android:id="@+id/checkbox1"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Football_Check" />
+
+    <CheckBox
+        android:id="@+id/checkbox2"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tennis_Check"
+        android:layout_below="@id/checkbox1" />
+
+    <CheckBox
+        android:id="@+id/checkbox3"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Basketball_Check"
+        android:layout_below="@id/checkbox2" />
+
+    <CheckBox
+        android:id="@+id/checkbox4"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:text="Hockey_Check"
+        android:layout_below="@id/checkbox3" />
+
+    <CheckBox
+        android:id="@+id/checkbox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Cricket_Check"
+        android:layout_below="@id/checkbox4" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="270dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="detail" />
+
+
+</RelativeLayout>
