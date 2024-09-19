@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:textSize="34dp"
+        android:background="@color/black"
+        android:textColor="@color/Blue"
+        android:text="Phone Market"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="360dp"
+        android:layout_marginLeft="25dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="50dp"
+
+        app:srcCompat="@drawable/gettyimages_1428022023_612x612" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:text="We have a variety of phoned click the picture button
+         to view the phones and the specs button to read
+          the specifications then login to buy" />
+
+    <Button
+        android:id="@+id/pictures"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="140dp"
+        android:textSize="24dp"
+        android:backgroundTint="@color/Cyan"
+        android:text="Pictures" />
+
+    <Button
+        android:id="@+id/specs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="540dp"
+        android:layout_marginLeft="150dp"
+        android:textSize="24dp"
+        android:backgroundTint="@color/Purple"
+        android:textColor="@color/white"
+        android:text="Specs" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="640dp"
+        android:layout_marginLeft="150dp"
+        android:backgroundTint="@color/Green"
+        android:textSize="24sp"
+        android:text="LOGIN" />
+
+</RelativeLayout>
